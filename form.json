@@ -1,0 +1,82 @@
+{
+  "title": "quan-form",
+  "subtitle": "Please fill in all fields",
+  "submitLabel": "Submit",
+  "fields": [
+    {
+      "id": "first-name-mugd3olb",
+      "label": "First Name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "last-name-mugd3uqn",
+      "label": "Last Name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "canadian-postal-code-mugd432f",
+      "label": "Canadian Postal Code",
+      "type": "split",
+      "required": true,
+      "pattern": "ANA NAN"
+    }
+  ],
+  "optionSets": {
+    "provinces": [
+      {
+        "value": "AB",
+        "label": "AB – Alberta"
+      },
+      {
+        "value": "BC",
+        "label": "BC – British Columbia"
+      },
+      {
+        "value": "MB",
+        "label": "MB – Manitoba"
+      },
+      {
+        "value": "NB",
+        "label": "NB – New Brunswick"
+      },
+      {
+        "value": "NL",
+        "label": "NL – Newfoundland & Labrador"
+      },
+      {
+        "value": "NS",
+        "label": "NS – Nova Scotia"
+      },
+      {
+        "value": "NT",
+        "label": "NT – Northwest Territories"
+      },
+      {
+        "value": "NU",
+        "label": "NU – Nunavut"
+      },
+      {
+        "value": "ON",
+        "label": "ON – Ontario"
+      },
+      {
+        "value": "PE",
+        "label": "PE – Prince Edward Island"
+      },
+      {
+        "value": "QC",
+        "label": "QC – Québec"
+      },
+      {
+        "value": "SK",
+        "label": "SK – Saskatchewan"
+      },
+      {
+        "value": "YT",
+        "label": "YT – Yukon"
+      }
+    ]
+  }
+}
